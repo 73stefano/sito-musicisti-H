@@ -9,7 +9,7 @@ html {
 }
 body {
   /*@apply bg-white-500;*/
-  @pply bg-rose-50 ;
+  @apply bg-rose-50 ;
 }
 p {
   @apply text-black-500;

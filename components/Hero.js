@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ButtonPrimary from "./misc/ButtonPrimary";
-
-import ReactPlayer from 'react-player/youtube'
+import ReactPlayer from 'react-player/lazy';
 
 const Hero = ({
   listUser = [

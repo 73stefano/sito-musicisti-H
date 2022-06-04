@@ -99,20 +99,20 @@ const Header = () => {
               Testimonial
             </LinkScroll>
           </ul>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
+         {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                   Sign In
               </a>
             </Link>
             <ButtonOutline>Sign Up</ButtonOutline>
-          </div>
+            </div>*/}
         </nav>
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="bg-rose-50 fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
-        <div className="bg-rose-50 sm:px-3">
+      <nav className="bg-white-500 fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
+        <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"

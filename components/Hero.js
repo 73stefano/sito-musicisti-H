@@ -50,7 +50,7 @@ const Hero = ({
 
             <div className='player-wrapper'>
               <ReactPlayer url='https://www.youtube.com/watch?v=GlYZ9pD-2Fw'
-                playing={true}
+                //playing={true}
                 //muted={true}
                 className='react-player'
                 width='100%'
@@ -74,7 +74,7 @@ const Hero = ({
 
             <div className='player-wrapper'>
               <ReactPlayer url='https://www.youtube.com/watch?v=6qnaEA8piJs'
-                playing={true}
+                //playing={true}
                 //muted={true}
                 className='react-player'
                 width='100%'

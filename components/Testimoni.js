@@ -20,7 +20,7 @@ const Testimoni = ({
     },
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "/assets/foto1.jpeg",
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -58,6 +58,8 @@ const Testimoni = ({
     },
     dotsClass: "slick-dots w-max absolute mt-20  ",
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 2,
@@ -96,8 +98,10 @@ const Testimoni = ({
                 <div className="flex order-2 xl:order-1">
                   <Image
                     src={listTestimonis.image}
-                    height={50}
-                    width={50}
+                    //height={50}
+                    //width={50}
+                    height= "100%"
+                    width= "100%"
                     alt="Icon People"
                   />
                   <div className="flex flex-col ml-5 text-left">

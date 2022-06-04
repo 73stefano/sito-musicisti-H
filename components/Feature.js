@@ -11,24 +11,35 @@ const Feature = () => {
         <div className="flex w-full justify-end">
           <div className="h-full w-full p-4">
             <Image
-              src="/assets/Illustration2.png"
+              src="/assets/foto8.jpeg"
               alt="VPN Illustrasi"
               layout="responsive"
               quality={100}
-              height={414}
+              height={314}
               width={508}
+
             />
           </div>
         </div>
         <div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12">
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+          {/*<h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+            We Provide Many Features You Can Use
+          </h3>*/}
+          <h3 className="text-3xl lg:text-4xl xl:text-5xl font-medium leading-relaxed text-black-600">
             We Provide Many Features You Can Use
           </h3>
           <p className="my-2 text-black-500">
-            You can explore the features that we provide with fun and have their
-            own functions each feature.
+            Scivere del testo qui ----
+            <br></br>Scivere del testo qui
+            Scivere del testo qui
+            Scivere del testo qui ----
+            Scivere del testo qui
+            Scivere del testo qui.
+            Scivere del testo qui ---- Scivere del testo qui
+            Scivere del testo qui ---- Scivere del testo qui
+            Scivere del testo qui.
           </p>
-          <ul className="text-black-500 self-start list-inside ml-8">
+          {/*<ul className="text-black-500 self-start list-inside ml-8">
             <li className="relative circle-check custom-list">
               Powerfull online protection.
             </li>
@@ -41,9 +52,43 @@ const Feature = () => {
             <li className="relative circle-check custom-list">
               No specific time limits.
             </li>
-          </ul>
+          </ul>*/}
         </div>
       </div>
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
+        <div className="flex flex-col items-end justify-center  w-full lg:w-9/12">
+          {/*<h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+              We Provide Many Features You Can Use
+          </h3>*/}
+          <h3 className="text-3xl lg:text-4xl xl:text-5xl font-medium leading-relaxed text-black-600">
+            We Provide Many Features You Can Use
+          </h3>
+          <p className="my-2 text-black-500">
+            Scivere del testo qui ----
+            <br></br>Scivere del testo qui
+            Scivere del testo qui
+            Scivere del testo qui ----
+            Scivere del testo qui
+            Scivere del testo qui.
+            Scivere del testo qui ---- Scivere del testo qui
+            Scivere del testo qui ---- Scivere del testo qui
+            Scivere del testo qui.
+          </p>
+        </div>
+        <div className="flex w-full justify-end">
+          <div className="h-full w-full p-4">
+            <Image
+              src="/assets/foto8.jpeg"
+              alt="VPN Illustrasi"
+              layout="responsive"
+              quality={100}
+              height={314}
+              width={508}
+            />
+          </div>
+        </div>
+      </div>
+    
     </div>
   );
 };

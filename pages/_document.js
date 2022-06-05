@@ -17,8 +17,9 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Landingpage VPN LaslesVPN Best VPN For Privacy, Country and Cheapest"
+            content="Sito EndLess Road Band."
           />
+          <meta property="twitter:image" content="public/assets/foto4.jpeg"></meta>
         </Head>
         <body>
           <Main />

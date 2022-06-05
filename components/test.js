@@ -89,21 +89,39 @@ const Testimoni = ({
         {...settings}
         arrows={false}
         ref={setSliderRef}
-        
+        className="flex items-stretch justify-items-stretch"
       >
         {listTestimoni.map((listTestimonis, index) => (
-          <div>
+          <div className="px-3 flex items-stretch" key={index}>
+            <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
+              <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
+                <div className="flex order-2 xl:order-1">
                   <Image
                     src={listTestimonis.image}
-                    //height={150}
-                    //width={250}
-                    layout='fixed'
-                    height= {400}
-                    width= {350}
-                    
+                    //height={50}
+                    //width={50}
+                    height= "100%"
+                    width= "100%"
                     alt="Icon People"
                   />
-                
+                {/*<div className="flex flex-col ml-5 text-left">
+                    <p className="text-lg text-black-600 capitalize">
+                      {listTestimonis.name}
+                    </p>
+                    <p className="text-sm text-black-500 capitalize">
+                      {listTestimonis.city},{listTestimonis.country}
+                    </p>
+                  </div> */}
+                </div>
+                {/*<div className="flex flex-none items-center ml-auto order-1 xl:order-2">
+                  <p className="text-sm">{listTestimonis.rating}</p>
+                  <span className="flex ml-4">
+                    <Stars className="h-4 w-4" />
+                  </span>
+                </div>*/}
+              </div>
+              {/*<p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>*/}
+            </div>
           </div>
         ))}
       </Slider>

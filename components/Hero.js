@@ -6,17 +6,17 @@ import ReactPlayer from 'react-player/lazy';
 const Hero = ({
   listUser = [
     {
-      name: "Users",
-      number: "390",
+      name: "Cantanti",
+      number: "4",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Locations",
-      number: "20",
+      name: "Musicisti",
+      number: "3",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
+      name: "Coristi",
       number: "50",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
@@ -130,7 +130,7 @@ const Hero = ({
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">
-                    {listUsers.number}+
+                    {listUsers.number}
                   </p>
                   <p className="text-lg text-black-500">{listUsers.name}</p>
                 </div>

@@ -8,7 +8,7 @@ import Maps from "../public/assets/HugeGlobal.svg";
 const Pricing = () => {
   return (
      <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-rose-50 from-white-300 to-white-500 w-full py-14"
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -134,10 +134,10 @@ const Pricing = () => {
   </div> */}
         <div className="flex flex-col w-full my-16">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-            Huge Global Network of Fast VPN{" "}
+            I Nostri Network {" "}
           </h3>
           <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
-            See LaslesVPN everywhere to make it easier for you when you move
+            See  everywhere to make it easier for you when you move
             locations.
           </p>
           {/* <div className="py-12 w-full px-8 mt-16">
@@ -174,11 +174,10 @@ const Pricing = () => {
         </div>
         <div className="flex flex-col w-full my-16" id="testimoni">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-            Trusted by Thousands of Happy Customer{" "}
+            Le Nostre Foto{" "}
           </h3>
           <p className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12">
-            These are the stories of our customers who have joined us with great
-            pleasure when using this crazy feature.
+            Le Nostre Foto Del Backstage
           </p>
           <div className="w-full flex flex-col py-12">
             <Testimoni />

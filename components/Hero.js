@@ -27,7 +27,7 @@ const Hero = ({
       
 
       <h1 className="font-serif italic text-5xl text-center	lg:text-6xl xl:text-7xl font-medium text-orange-500 leading-normal py-10">
-        <strong><u>EndLess Road</u></strong>.
+        <strong><u>Endless Road</u></strong>.
       </h1>
 
        

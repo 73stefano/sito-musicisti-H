@@ -26,7 +26,7 @@ const Feature = () => {
             We Provide Many Features You Can Use
           </h3>*/}
           <h3 className="text-3xl lg:text-4xl xl:text-5xl font-medium leading-relaxed text-black-600">
-            We Provide Many Features You Can Use
+            Scrivere un titolo QUI
           </h3>
           <p className="my-2 text-black-500">
             Scivere del testo qui ----
@@ -61,7 +61,7 @@ const Feature = () => {
               We Provide Many Features You Can Use
           </h3>*/}
           <h3 className="text-3xl lg:text-4xl xl:text-5xl font-medium leading-relaxed text-black-600">
-            We Provide Many Features You Can Use
+          Scrivere un Bellissimo titolo QUI
           </h3>
           <p className="my-2 text-black-500">
             Scivere del testo qui ----

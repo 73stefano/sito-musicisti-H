@@ -18,6 +18,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Keywords" />
         <title>Endless Road Band</title>
         <meta property="twitter:image" content="public/assets/foto4.jpeg"></meta>
+        <meta property="og:image" content="public/assets/foto4.jpeg"></meta>
 
         <link rel="manifest" href="/manifest.json" />
         <link

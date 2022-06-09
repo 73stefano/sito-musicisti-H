@@ -20,6 +20,7 @@ class MyDocument extends Document {
             content="Sito EndLess Road Band."
           />
           <meta property="twitter:image" content="public/assets/foto4.jpeg"></meta>
+          <meta property="og:image" content="public/assets/foto4.jpeg"></meta>
         </Head>
         <body>
           <Main />

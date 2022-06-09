@@ -101,7 +101,7 @@ const Testimoni = ({
                     height= {400}
                     width= {350}
                     
-                    alt="Icon People"
+                    alt="Le Nostre Foto"
                   />
                 
           </div>
